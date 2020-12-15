@@ -14,10 +14,11 @@ function averageMark(algebra, geography, physics) {
 }
 
 function sayHello(userName) {
-	
-    // реализуйте здесь задание №2
-    
-	return // ваш ответ;
+
+   let myName = userName;
+   let message = ("Привет, мир! Меня зовут ");
+
+	return (message + userName)
 }
 
 function calculateFormula() {
