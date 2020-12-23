@@ -14,7 +14,6 @@ function getResult(a,b,c){
     }
     return x;
 }
-console.log (getResult(2,4,-3))
 
 function getAverageMark(marks){
     // код для задачи №2 писать здесь
