@@ -16,11 +16,26 @@ function getResult(a,b,c){
 }
 
 function getAverageMark(marks){
-    // код для задачи №2 писать здесь
-    // return averageMark;
-}
+    var index;
+    for (index=0; index<marks.length; index++){
+    return marks (2, 4, 5, 3);
+}}
+{
+    console.log (i)}
 
-function askDrink(name,dateOfBirthday){
+//function askDrink(name,dateOfBirthday){
     // код для задачи №3 писать здесь
     // return result;
+}
+
+var qq =(2, 4, 5, 3);
+var index;
+for (index=0; index<qq.length; ++index){
+        console.log (qq[index]);
+    }
+
+    var a = [2, 4, 5, 3];
+var index;
+for (index = 0; index < a.length; ++index) {
+    console.log(a[index]);
 }
