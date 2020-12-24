@@ -26,16 +26,4 @@ function getAverageMark(marks){
 //function askDrink(name,dateOfBirthday){
     // код для задачи №3 писать здесь
     // return result;
-}
 
-var qq =(2, 4, 5, 3);
-var index;
-for (index=0; index<qq.length; ++index){
-        console.log (qq[index]);
-    }
-
-    var a = [2, 4, 5, 3];
-var index;
-for (index = 0; index < a.length; ++index) {
-    console.log(a[index]);
-}
