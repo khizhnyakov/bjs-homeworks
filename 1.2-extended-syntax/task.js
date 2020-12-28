@@ -4,7 +4,7 @@ function getResult(a,b,c){
     let x =[];
     let d =(b**2-4*a*c);
     if (d===0) {
-     x[0] = -b/2*a;
+    x[0] = -b/2*a;
     }
     else if (d<0) {
     }
@@ -14,16 +14,31 @@ function getResult(a,b,c){
     }
     return x;
 }
-
+//! доделать
 function getAverageMark(marks){
-    var index;
-    for (index=0; index<marks.length; index++){
-    return marks (2, 4, 5, 3);
-}}
-{
-    console.log (i)}
+    if (marks.length === 0) {
+        return 0;
+    }
+    else if (marks.length > 0){
+        if (marks.length > 5){
+        //console.log ("более 5 оценок");
+        marks.splice(5);
+        }
+    let summ = 0;
+    /*summ = marks.reduce(function(sum, elem){
+        return sum + elem;
+    }, 0);*/
+    for (let i = 0; i < marks.length; i++){
+        summ += marks[i];
+    }
+    return (summ/marks.length);
+    }
+}
 
-//function askDrink(name,dateOfBirthday){
+
+
+
+//todo function askDrink(name,dateOfBirthday){
     // код для задачи №3 писать здесь
     // return result;
 
