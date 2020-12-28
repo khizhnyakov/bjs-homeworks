@@ -43,10 +43,10 @@ function askDrink(name,dateOfBirthday){
     var todayYear = toDay.getFullYear(); 
     let difference = (todayYear - yearBirthday);
     if (difference >= 18){
-        console.log (`Не желаете ли олд-фэшн, ${name}?`)
+        return (`Не желаете ли олд-фэшн, ${name}?`)
     }
     else{
-        console.log (`Сожалею, ${name}, но я не могу вам продать алкоголь. Могу предложить вам замечательный клюквенный компот!`)
+        return (`Сожалею, ${name}, но я не могу вам продать алкоголь. Могу предложить вам замечательный клюквенный компот!`)
 }
 return (difference);
 }
