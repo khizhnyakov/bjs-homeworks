@@ -14,7 +14,7 @@ function getResult(a,b,c){
     }
     return x;
 }
-//! доделать
+
 function getAverageMark(marks){
     if (marks.length === 0) {
         return 0;
@@ -37,8 +37,15 @@ function getAverageMark(marks){
 
 
 
-
-//todo function askDrink(name,dateOfBirthday){
-    // код для задачи №3 писать здесь
-    // return result;
-
+function askDrink(name,dateOfBirthday){
+    let yearBirthday = dateOfBirthday.getFullYear();
+    let toDay = new Date();
+    var todayYear = toDay.getFullYear(); 
+    let difference = (2020 - 1976);
+    if (difference >= 18){
+        console.log ("Не желаете ли олд-фэшн, " + name + "?")
+    }
+    else{
+        //console.log ("Сожалею, но я не могу вам продать алкоголь. Могу предложить вам замечательный клюквенный компот!”);
+}
+}
