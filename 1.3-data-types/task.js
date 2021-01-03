@@ -8,16 +8,21 @@ function calculateTotalMortgage(percent, contribution, amount, date){
     const amountMonth = (+yearDedline - +yearNow) * 12 - (+monthDateNow) + date.getMonth(); //считаем колличество месяцев в кредите
     let percentMonth = +percent / 100 / 12; // считаем процент в месяц
     let credit = +amount - +contribution; // считаем тело кредита
-    let payMouth = credit * (percentMonth+percentMonth/(Math.pow((1 + percentMonth), amountMonth)-1)); // считаеем процент за время кредита 
+    let payMouth = credit * (percentMonth+percentMonth/(Math.pow((1 + percentMonth), amountMonth)-1)); // считаеем тело кредита+проценты в месяц
     let totalAmount = +payMouth * +amountMonth; // считаем все расходы клиента 
-    {console.log (`Всего с процентами: ${totalAmount.toFixed(2)} рублей`)}
-    return (`Всего с процентами: ${totalAmount.toFixed(2)} рублей`)
+    {console.log (Number(totalAmount.toFixed(2)))}
+    return (Number(totalAmount.toFixed(2)))
 }
 
-
 function getGreeting(name) {
-    // код для задачи №2 писать здесь
-    // return greeting;
+if (name = "") {
+    return (`Привет, мир! Меня зовут ${name}`)
+}
+else {
+        return ("Привет, мир! Меня зовут Аноним.")
+    }
+
+    return greeting;
 }
 
 
