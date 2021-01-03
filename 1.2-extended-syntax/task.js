@@ -6,9 +6,7 @@ function getResult(a,b,c){
     if (d===0) {
     x[0] = -b/2*a;
     }
-    else if (d<0) {
-    }
-    else {
+    else if{
         x[0]=(- b + Math.sqrt(d)) / (2 * a);
         x[1]=(- b - Math.sqrt(d)) / (2 * a); 
     }
@@ -21,13 +19,9 @@ function getAverageMark(marks){
     }
     else if (marks.length > 0){
         if (marks.length > 5){
-        //console.log ("более 5 оценок");
         marks.splice(5);
         }
     let summ = 0;
-    /*summ = marks.reduce(function(sum, elem){
-        return sum + elem;
-    }, 0);*/
     for (let i = 0; i < marks.length; i++){
         summ += marks[i];
     }
