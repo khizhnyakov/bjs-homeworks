@@ -10,6 +10,4 @@ function checkBirthday(birthday) {
     // return verdict
 }
 
-
-
-
+ 
