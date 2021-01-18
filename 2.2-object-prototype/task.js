@@ -9,3 +9,5 @@ function checkBirthday(birthday) {
     // код для задачи №3 писать здесь
     // return verdict
 }
+
+
